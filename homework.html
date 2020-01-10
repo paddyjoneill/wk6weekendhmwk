@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="js/app.js""></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>DOM Homework - Animals</title>
+  </head>
+  <body>
+    <h1>Animals of the World</h1>
+    <h2>Enter New Animal</h2>
+    <form id="form">
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+      <br>
+      <label for="species">Species:</label>
+      <input type="text" id="species">
+      <br>
+      <label for="continent">Continent</label>
+      <select id="continent">
+        <option value="Europe">Europe</option>
+        <option value="Africa">Africa</option>
+        <option value="Asia">Asia</option>
+        <option value="North America">North America</option>
+        <option value="South America">South America</option>
+        <option value="Antartica">Antartica</option>
+        <option value="Australasia">Australasia</option>
+      </select>
+      <br>
+      <label for="endangered">Endangered</label>
+      <input type="radio" name="endangered" id="endangered" value="Endangered">
+      <label for="not-endangered">Not Endangered</label>
+      <input type="radio" name="endangered" id="not-endangered" value="Not Endangered" checked>
+      <br>
+      <button type="submit" id="submit_animal">Submit Animal</button>
+
+    </form>
+    <ul id="list">
+
+    </ul>
+  </body>
+</html>
